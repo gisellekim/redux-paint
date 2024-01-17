@@ -5,5 +5,6 @@ type Action = {
 }
 
 export const rootReducer = (state: RootState = {}, action: Action) => {
+  console.log(action)
   return state
 }
